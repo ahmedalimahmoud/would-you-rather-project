@@ -6,7 +6,7 @@ class LeaderBoard extends Component {
   render() {
     const { userIds2 } = this.props;
     return (
-      <div class="col-md-8 mx-auto px-0">
+      <div className="col-md-8 mx-auto px-0">
         {userIds2.map((id) => (
           <LeaderBoardItem
             key={id}

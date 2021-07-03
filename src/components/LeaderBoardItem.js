@@ -9,7 +9,7 @@ class LeaderBoardItem extends Component {
     const askedQuestions = questions.length;
     const sum = answeredQuestions + askedQuestions;
     return (
-      <div className='card mb-4 shadow'>
+      <div className='card mb-4 shadow' >
         <div className='row no-gutters align-middle justify-content-center align-items-center'>
           <div className='col-md-3'>
             <div className='col-md-12'>
@@ -25,8 +25,8 @@ class LeaderBoardItem extends Component {
             <div className='card-body'>
               <h3 className='card-title mb-3'  >{name}  </h3>
               <ul className="list-group list-group-flush">
-                <li class="list-group-item d-flex justify-content-between align-items-center border-none border-0 pl-0">Answered Questions  <span className=''>{answeredQuestions}</span></li>
-                <li class="list-group-item d-flex justify-content-between align-items-center pl-0">Created Questions  <span className=''>{askedQuestions}</span></li>
+                <li className="list-group-item d-flex justify-content-between align-items-center border-none border-0 pl-0">Answered Questions  <span className=''>{answeredQuestions}</span></li>
+                <li className="list-group-item d-flex justify-content-between align-items-center pl-0">Created Questions  <span className=''>{askedQuestions}</span></li>
               </ul>
             </div>
           </div>
